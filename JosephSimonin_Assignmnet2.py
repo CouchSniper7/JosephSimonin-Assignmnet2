@@ -10,5 +10,5 @@ lobster4 = float(input("Please enter the weight of the 4th lobster in lbs: "))
 #Calculate Average of lobsters
 Average = (lobster1 + lobster2 + lobster3 + lobster4) / 4
 
-#Output Average
+#Output Average using f-string
 print(f"The average weight of the 4 entered lobster weights are {Average}lbs")
